@@ -84,7 +84,7 @@ button:hover {
 
 .second-section-figure {
     display: flex;
-    margin: 0 20%;
+    margin: 0 20% 60px;
 }
 
 .second-section-figure figure {
@@ -94,4 +94,21 @@ button:hover {
 .second-section-figure img {
     width: 60%;
     border-radius: 10px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 30px 20%;
+    text-align: justify;
+}
+
+.third-section blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-section p {
+    text-align: end;
+    font-weight: bold;
 }
