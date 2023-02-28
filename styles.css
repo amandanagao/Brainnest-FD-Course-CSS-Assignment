@@ -50,12 +50,12 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding: 50px 15%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 1rem;
 }
 
 .main-text h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     margin-top: 0;
 }
@@ -69,4 +69,29 @@ button:hover {
 .main-text-image {
     height: auto;
     width: 50%;
+}
+
+.second-section{
+    text-align: center;
+}
+
+.second-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 30px 0;
+}
+
+.second-section-figure {
+    display: flex;
+    margin: 0 20%;
+}
+
+.second-section-figure figure {
+    margin: 0;
+}
+
+.second-section-figure img {
+    width: 60%;
+    border-radius: 10px;
 }
