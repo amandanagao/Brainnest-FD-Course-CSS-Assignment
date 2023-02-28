@@ -21,6 +21,14 @@ button:hover {
     cursor: pointer; 
 }
 
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
 .navbar {
     background-color: #1F2937;
     display: flex;
