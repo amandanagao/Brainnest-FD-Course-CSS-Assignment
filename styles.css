@@ -112,3 +112,19 @@ button:hover {
     text-align: end;
     font-weight: bold;
 }
+
+.sign-up-box {
+    background-color: #3882F6;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-up-box button {
+    border: 1px solid #F9FAF8;
+}
