@@ -56,28 +56,27 @@ footer {
 .main-text-section {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
     padding: 50px 15%;
-    margin: 0 auto 1rem;
 }
 
 .main-text h1 {
     font-size: 48px;
-    font-weight: 900;
     color: #F9FAF8;
     margin-top: 0;
-    padding-right: 10px;
 }
 
 .main-text p {
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 20px;
+    text-align: justify;
 }
 
-.main-text-image {
+.main-text-image{
     height: auto;
     width: 50%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .second-section{
@@ -94,21 +93,25 @@ footer {
 
 .second-section-figure {
     display: flex;
-    margin: 0 20% 60px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .second-section-figure figure {
-    margin: 0;
+    flex-basis: 200px;
     transition: all 200ms ease-in-out;
 }
 
 .second-section-figure figure:hover {
-    scale: 1.5;
+    scale: 1.1;
     cursor: pointer;
 }
 
 .second-section-figure img {
-    width: 60%;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
     border-radius: 10px;
 }
 
@@ -181,4 +184,3 @@ footer {
     margin: 10px;
     flex-shrink: 2;
 }
-
