@@ -327,7 +327,7 @@ footer {
 .back-button {
     display: flex;
     justify-content: end;
-    margin-right: 30px;
+    margin: 0 30px 10px;
 }
 
 .back-button:hover {
