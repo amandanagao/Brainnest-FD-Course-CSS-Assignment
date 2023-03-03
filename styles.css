@@ -88,13 +88,19 @@ footer {
     color: #E5E7EB;
     margin-right: 20px;
     text-align: justify;
+    line-height: 2;
+}
+
+.main-text .main-text-welcome {
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .main-text-image{
     height: auto;
-    width: 50%;
+    width: 100%;
     object-fit: cover;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 /* Homepage - Second Section */
@@ -391,10 +397,7 @@ footer {
 
 .about-us-section {
     background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
     padding: 50px 14%;
-    /* flex-wrap: wrap; */
 }
 
 .about-us-section h1 {
@@ -402,6 +405,7 @@ footer {
     color: #F9FAF8;
     margin: 20px;
     padding-right: 10px;
+    font-size: 30px;
 }
 
 .about-us-section p {
@@ -409,12 +413,14 @@ footer {
     text-align:justify;
     color: #E5E7EB;
     margin: 20px;
+    font-size: 20px;
 }
 
 .about-us-section img {
+    display: block;
     height: auto;
-    width:50%;
-    margin: 20px;
+    width:70%;
+    margin: 0 auto;
     border-radius: 10px;
 }
 
