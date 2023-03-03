@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Fonts/Roboto-LightItalic.ttf);
+    font-weight: 300;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -76,17 +93,21 @@ footer {
     padding: 50px 14%;
 }
 
+.main-text {
+    margin-right: 50px;
+    max-width: 50%;
+}
+
 .main-text h1 {
     font-size: 48px;
     color: #F9FAF8;
     margin-top: 0;
-    margin-right: 20px;
+    font-weight: 900;
 }
 
 .main-text p {
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 20px;
     text-align: justify;
     line-height: 2;
 }
@@ -96,11 +117,24 @@ footer {
     font-size: 22px;
 }
 
-.main-text-image{
+.main-text-image {
     height: auto;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-text-section {
+        flex-direction: column;
+    }
+    
+    .main-text {
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 
 /* Homepage - Second Section */
@@ -113,6 +147,7 @@ footer {
 .second-section h2 {
     font-size: 36px;
     color: #1F2937;
+    font-weight: 900;
 }
 
 .second-section-figure {
@@ -292,10 +327,10 @@ footer {
 .back-button {
     display: flex;
     justify-content: end;
+    margin-right: 30px;
 }
 
 .back-button:hover {
-    display: flex;
     color: #3882F6;
     cursor: pointer; 
 }
@@ -412,7 +447,6 @@ footer {
     line-height: 2;
     text-align:justify;
     color: #E5E7EB;
-    margin: 20px;
     font-size: 20px;
 }
 
@@ -447,7 +481,7 @@ footer {
     margin: 5px;
     padding: 3px;
     box-shadow: 3px 3px 5px grey;
-    width:400px;
+    width:375px;
     height:100px;
 }
 
