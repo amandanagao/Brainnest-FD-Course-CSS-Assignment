@@ -1,3 +1,8 @@
-# Brainnest-FD-Course-CSS-Assignment
+# Brainnest Frontend Course - HTML/CSS Assignment
 
-[Assignment 2](https://amandanagao.github.io/Brainnest-FD-Course-CSS-Assignment/)
+⭐ Check out this project: [Restaurant Web Page](https://amandanagao.github.io/Brainnest-FD-Course-CSS-Assignment/)
+
+## Project built with:
+
+### ➡️ HTML5
+### ➡️ CSS3
